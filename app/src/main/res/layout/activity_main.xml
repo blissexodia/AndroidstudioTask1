@@ -15,7 +15,7 @@
         android:layout_marginTop="40dp"
         android:text="Your fries"
         android:textColor="@color/red"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,12 +93,15 @@
 
     <Button
         android:id="@+id/submittask"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="316dp"
+        android:layout_height="48dp"
         android:layout_marginStart="159dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="159dp"
+        android:background="@drawable/buttonshape"
         android:text="Submit"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4" />
 
@@ -123,8 +126,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout4"
-        android:layout_width="273dp"
-        android:layout_height="36dp"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
         app:passwordToggleEnabled="true">
@@ -132,7 +137,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordInput"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@drawable/boxshape"
             android:hint="Password"
             android:inputType="textPassword" />
